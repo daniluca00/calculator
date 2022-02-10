@@ -9,9 +9,5 @@ public class CalculatorApplicationTest {
      public void testSum() {
           assertEquals(5, calculator.sum(2, 3));
      }
-     @Test
-     public void testSumIncorrecto() {
-          assertEquals(7, calculator.sum(2, 3));
-     }
 
 }
